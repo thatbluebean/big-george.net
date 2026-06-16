@@ -187,14 +187,14 @@ a {
 }
 
 .btn-primary {
-    background-color: var(--text-primary);
+    background-color: var(--accent);
     color: var(--bg-base);
-    border: 1px solid var(--text-primary);
+    border: 1px solid var(--accent);
 }
 
 .btn-primary:hover {
     background-color: transparent;
-    color: var(--text-primary);
+    color: var(--accent);
 }
 
 .btn-secondary {
@@ -322,11 +322,6 @@ a {
     padding: 0.15rem 0.5rem;
     border-radius: 3px;
     border: 1px solid rgba(255, 255, 255, 0.03);
-}
-
-.mini-tag.high-contrast {
-    border-color: rgba(255, 255, 255, 0.15);
-    color: var(--text-primary);
 }
 
 /* --------------------------------------------------------
