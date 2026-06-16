@@ -324,6 +324,11 @@ a {
     border: 1px solid rgba(255, 255, 255, 0.03);
 }
 
+.mini-tag.high-contrast {
+    border-color: rgba(255, 255, 255, 0.15);
+    color: var(--text-primary);
+}
+
 /* --------------------------------------------------------
    8. Experience Timeline
 -------------------------------------------------------- */
