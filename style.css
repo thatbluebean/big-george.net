@@ -3,31 +3,28 @@
 -------------------------------------------------------- */
 :root {
     /* Color Palette */
-    --bg-base: #0a0a0c; /* Deep charcoal black */
+    --bg-base: #0a0a0c;
     --bg-header: rgba(10, 10, 12, 0.75);
     --bg-card: rgba(255, 255, 255, 0.02);
-    --border-glass: rgba(255, 255, 255, 0.06);
-    --border-glass-hover: rgba(255, 255, 255, 0.12);
+    --border-glass: rgba(255, 255, 255, 0.1);
+    --border-glass-hover: rgba(255, 255, 255, 0.16);
 
     /* Text Palette */
-    --text-primary: #ffffff; /* Pure white for headers */
-    --text-secondary: #a0aec0; /* Muted soft gray for body */
-    --text-muted: #64748b; /* Secondary accents/dates */
+    --text-primary: #ffffff;
+    --text-secondary: #a0aec0;
+    --text-muted: #64748b;
 
-    /* Sophisticated Accent - Steel Slate Blue */
     --accent: #8ba4f9;
     --accent-dim: rgba(139, 164, 249, 0.1);
 
-    /* Fonts */
     --font-sans: "Inter", system-ui, -apple-system, sans-serif;
     --font-mono: "JetBrains Mono", monospace;
 
-    /* Layout */
     --max-width: 900px;
 }
 
 /* --------------------------------------------------------
-   2. Base Resets & Global Styles
+   Global Styles
 -------------------------------------------------------- */
 * {
     box-sizing: border-box;
@@ -72,7 +69,7 @@ a {
 }
 
 /* --------------------------------------------------------
-   3. Navigation (Sticky & Glass)
+   Navigation
 -------------------------------------------------------- */
 .site-header {
     position: sticky;
@@ -115,7 +112,7 @@ a {
 }
 
 /* --------------------------------------------------------
-   4. Layout Container
+   Layout Container
 -------------------------------------------------------- */
 .main-content {
     max-width: var(--max-width);
@@ -124,7 +121,7 @@ a {
 }
 
 /* --------------------------------------------------------
-   5. Hero Section
+   Hero Section
 -------------------------------------------------------- */
 .hero-section {
     padding: 5rem 0 2rem 0;
@@ -152,7 +149,6 @@ a {
     color: var(--accent);
     font-weight: 600;
 
-    /* Subtle white/steel glow */
     text-shadow:
         0 0 12px rgba(139, 164, 249, 0.5),
         0 0 24px var(--accent-dim);
@@ -209,7 +205,7 @@ a {
 }
 
 /* --------------------------------------------------------
-   6. Tech Stack Section
+   Tech Stack Section
 -------------------------------------------------------- */
 .section-title {
     font-size: 1.5rem;
@@ -254,7 +250,7 @@ a {
 }
 
 /* --------------------------------------------------------
-   7. Projects Portfolio Section
+   Projects
 -------------------------------------------------------- */
 .projects-grid {
     display: grid;
@@ -262,7 +258,6 @@ a {
     gap: 1.5rem;
 }
 
-/* Custom Glassmorphism panel */
 .glass-panel {
     background: var(--bg-card);
     backdrop-filter: blur(8px);
@@ -325,7 +320,7 @@ a {
 }
 
 /* --------------------------------------------------------
-   8. Experience Timeline
+    Timeline
 -------------------------------------------------------- */
 .timeline {
     position: relative;
@@ -397,7 +392,7 @@ a {
 }
 
 /* --------------------------------------------------------
-   9. Footer / Contact
+   Contact
 -------------------------------------------------------- */
 .site-footer {
     border-top: 1px solid var(--border-glass);
@@ -431,9 +426,6 @@ a {
     color: var(--text-muted);
 }
 
-/* --------------------------------------------------------
-   10. Media Queries (Responsive Adjustments)
--------------------------------------------------------- */
 @media (max-width: 600px) {
     .nav-links {
         display: none; /* Keeps top header minimal on mobile mobile devices */
