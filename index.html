@@ -120,6 +120,68 @@
                 <div class="projects-grid">
                     <article class="project-card glass-panel">
                         <div class="project-header">
+                            <h3 class="project-title">
+                                Computer Vision Robot Arm
+                            </h3>
+                            <a
+                                href="https://github.com/thatbluebean/"
+                                class="project-link"
+                                target="_blank"
+                                rel="noopener"
+                                >View Code ↗</a
+                            >
+                        </div>
+                        <div class="project-body">
+                            <div class="project-content">
+                                <div class="project-text">
+                                    <p class="project-description">
+                                        Collaborated with a team of UCL students
+                                        to develop a robotic noughts and crosses
+                                        game in which a player competed against
+                                        an AI using two physical robot arms.
+                                    </p>
+
+                                    <p class="project-description">
+                                        My primary contribution was the player
+                                        interaction system. I developed a
+                                        computer vision pipeline that used a
+                                        laptop camera to track the player's arm
+                                        movements and translate them into
+                                        commands sent to a Raspberry Pi,
+                                        allowing the robotic arm to place
+                                        coloured blocks onto the game board.
+                                    </p>
+
+                                    <p class="project-description">
+                                        The opposing robot arm was developed by
+                                        other members of the team and was
+                                        controlled by an LLM, which analysed the
+                                        board state, determined its next move,
+                                        and autonomously played against the
+                                        user.
+                                    </p>
+                                    <button class="toggle-btn">
+                                        Read more
+                                    </button>
+                                </div>
+                                <div class="project-image">
+                                    <img
+                                        src="assets/img/robotarm.jpg"
+                                        alt="ESP32 Messenger thumbnail"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="mini-tag">Python</span>
+                            <span class="mini-tag">OpenCV</span>
+                            <span class="mini-tag">Linux (Ubuntu)</span>
+                            <span class="mini-tag">Networking</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card glass-panel">
+                        <div class="project-header">
                             <h3 class="project-title">TUI Chatroom</h3>
                             <a
                                 href="https://github.com/thatbluebean/shadowchat"
@@ -129,43 +191,33 @@
                                 >View Code ↗</a
                             >
                         </div>
-                        <p class="project-description">
-                            A joint project between myself and other student,
-                            'ShadowChat' is a LAN chatroom for your terminal. We
-                            experience a lot of use between students within my
-                            school, and support binaries for any operating
-                            system.
-                        </p>
+                        <div class="project-body">
+                            <div class="project-content">
+                                <div class="project-text">
+                                    <p class="project-description">
+                                        A joint project between myself and other
+                                        student, 'ShadowChat' is a simple LAN
+                                        messaging chatroom for the terminal. We
+                                        experience a lot of use between students
+                                        within my school, and support binaries
+                                        for any operating system.
+                                    </p>
+                                    <button class="toggle-btn">
+                                        Read more
+                                    </button>
+                                </div>
+                                <div class="project-image">
+                                    <img
+                                        src="assets/img/chatroom.png"
+                                        alt="TUI Chatroom thumbnail"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                         <div class="project-tags">
                             <span class="mini-tag">Python</span>
                             <span class="mini-tag">Asyncio</span>
                             <span class="mini-tag">Ncurses</span>
-                        </div>
-                    </article>
-
-                    <article class="project-card glass-panel">
-                        <div class="project-header">
-                            <h3 class="project-title">big-george.net</h3>
-                            <a
-                                href="https://github.com/thatbluebean/big-george.net"
-                                class="project-link"
-                                target="_blank"
-                                rel="noopener"
-                                >View Code ↗</a
-                            >
-                        </div>
-                        <p class="project-description">
-                            I self host this portfolio website on one of my
-                            cloud VPS's (this one is oracle), using nginx. I
-                            update the repo on one of my devices, then a bash
-                            script on the VPS pulls the change and reloads the
-                            web server's configuration.
-                        </p>
-                        <div class="project-tags">
-                            <span class="mini-tag">HTML</span>
-                            <span class="mini-tag">CSS</span>
-                            <span class="mini-tag">Bash</span>
-                            <span class="mini-tag">Server Admin</span>
                         </div>
                     </article>
 
@@ -182,20 +234,81 @@
                                 >View Code ↗</a
                             >
                         </div>
-                        <p class="project-description">
-                            I build a remote messaging system that lets me send
-                            text from my laptop to an LED matrix display from
-                            any network. The setup uses a Flask HTTP server
-                            hosted on a VPS. When I send a curl request to the
-                            server the data is formatted into JSON, which the
-                            ESP32 pulls and displays on the screen. The entire
-                            device is housed in a custom 3D-printed enclosure.
-                        </p>
+                        <div class="project-body">
+                            <div class="project-content">
+                                <div class="project-text">
+                                    <p class="project-description">
+                                        Developed a remote messaging system that
+                                        allows text to be sent to an ESP32
+                                        powered LED matrix display from any
+                                        network location.
+                                    </p>
+
+                                    <p class="project-description">
+                                        Built a Flask HTTP web server hosted on
+                                        a VPS to receive and process messages,
+                                        which are formatted as JSON and
+                                        retrieved by the ESP32 for real-time
+                                        display. Designed and 3D printed a
+                                        custom enclosure to create a complete
+                                        standalone device which can be operated
+                                        by non-tech savvy people.
+                                    </p>
+                                    <button class="toggle-btn">
+                                        Read more
+                                    </button>
+                                </div>
+                                <div class="project-image">
+                                    <img
+                                        src="assets/img/messenger.jpg"
+                                        alt="ESP32 Messenger thumbnail"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                         <div class="project-tags">
                             <span class="mini-tag">Python</span>
                             <span class="mini-tag">CAD + 3D Printing</span>
                             <span class="mini-tag">C++</span>
                             <span class="mini-tag">HTML</span>
+                        </div>
+                    </article>
+
+                    <article
+                        class="project-card glass-panel project-card--no-image"
+                    >
+                        <div class="project-header">
+                            <h3 class="project-title">big-george.net</h3>
+                            <a
+                                href="https://github.com/thatbluebean/big-george.net"
+                                class="project-link"
+                                target="_blank"
+                                rel="noopener"
+                                >View Code ↗</a
+                            >
+                        </div>
+                        <div class="project-body">
+                            <div class="project-content">
+                                <div class="project-text">
+                                    <p class="project-description">
+                                        I self host this portfolio website on
+                                        one of my cloud VPS's (this one is
+                                        oracle), using nginx. I update the repo
+                                        on one of my devices, then a bash script
+                                        on the VPS pulls the change and reloads
+                                        the web server's configuration.
+                                    </p>
+                                    <button class="toggle-btn">
+                                        Read more
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="mini-tag">HTML</span>
+                            <span class="mini-tag">CSS</span>
+                            <span class="mini-tag">Bash</span>
+                            <span class="mini-tag">Server Admin</span>
                         </div>
                     </article>
                 </div>
@@ -291,5 +404,11 @@
                 >
             </div>
         </footer>
+
+        <div class="lightbox-overlay" id="lightbox-overlay">
+            <img src="" alt="" class="lightbox-image" id="lightbox-image" />
+        </div>
+
+        <script src="script.js" defer></script>
     </body>
 </html>
