@@ -1,4 +1,4 @@
-# About George Dare-Williams
+# Me!
 
 Hey! I'm George, a novice software engineer and sysadmin based in London. My journey into tech began with a love for robotics and Linux, leading me to build some cool projects that use computer vision, automation, and server management.
 
